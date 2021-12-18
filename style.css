@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2? família = Roboto: wght @ 400; 500 & display = swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    width:100%
+}
+.container {
+    width:54vw;
+    height:86vh;
+    background-color: #2CB3F3;
+    text-align: center;
+    margin-top: 5vw;
+    margin-left: 7vh;
+    position: relative;
+
+}
+.text{
+    position: absolute;
+    margin-top:2vw;
+    margin-left:34vh;
+}
+h2{
+    font-size: 29px;
+    padding: 5px;
+}
+.box{
+    width: 35vw;
+    height: 55vh;
+    background-color:#FFFFFF;
+    position: absolute;
+    margin-top: 9vw;
+    margin-left:20vh;
+    border-radius: 50px 50px 0px 0px;
+
+}
+.box1{
+    width: 27vw;
+    height: 41vh;
+    background-color: #FFE1C9;
+    position: absolute;
+    margin-top: 3vw;
+    margin-left:8vh;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+  
+}
+.box2{
+    width: 28px;
+    height: 28px;
+    background-color: black;
+    position: absolute;
+    margin-top: 5vw;
+    margin-left:39vh;
+    border-radius: 50% 50% 50% 50%;
+}
+.box3{
+    width: 28px;
+    height: 28px;
+    background-color: black;
+    position: absolute;
+    margin-top: 5vw;
+    margin-left:15vh;
+    border-radius: 50% 50% 50% 50%;
+}
+.box4{
+    position: absolute;
+    margin-top:10vw;
+    margin-left:2vh;
+    display: block;
+}
+input{
+    width: 15vw;
+    padding: 6px;
+    border:black 2% solid;
+    border-radius: 3px;
+}
+.botao{
+    position: absolute;
+    margin-top:10vw;
+    margin-left:8vw;
+}
+button{
+    background-color: #55A603;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 30px;
+    color:#B2F272;
+    border-radius: 4px;
+    box-shadow: 1px 3px 1px rgb(48, 48, 48);
+    border: #2CB3F3;
+}
